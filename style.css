@@ -2,23 +2,932 @@ html {
     scroll-behavior: smooth;
     font-size: 62.5%;
     font-family: "Noto Sans", serif;
-}
-
-
-body * {
+  }
+  
+  body * {
     font-family: "Noto Sans JP", sans-serif;
     box-sizing: border-box;
     text-decoration: none;
     font-size: 1.6rem;
     margin: 0;
-}
-
-
-body {
+  }
+  
+  body {
     margin: 0;
-}
-
-
-p {
+    background-color: black;
+    color: #fff;
+  }
+  
+  p {
     margin: 0;
+  }
+
+main {
+    background-color: black;
+    color: aliceblue;
+  }
+  
+  @font-face {
+    font-family: "GN-Kin-iro_SansSerif";
+    src: url("font/GN-Kin-iro_SansSerif/GN-Kin-iro_SansSerif.ttf")
+      format("truetype");
+  }
+  
+  .container {
+    max-width: 375px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .white-bg{
+    background-color: #fff;
+  }
+  
+  #title-wrapper {
+    height: 668px;
+  }
+  
+  .title-image-wrapper {
+    background-image: url(images/title.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .video-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.6;
+    z-index: -1;
+    overflow: hidden;
+  }
+  
+  #video {
+    position: absolute;
+    z-index: -2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 645px;
+    min-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+  }
+  
+  .event {
+    padding-top: 324px;
+    color: #fff;
+    font-family: Noto Serif JP;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+  }
+  
+  .date {
+    color: #fff;
+    font-family: Noto Serif JP;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 78px;
+    text-align: center;
+  }
+  
+  .countdown {
+    display: flex;
+    margin-top: 7px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .countdown p {
+    color: #fff;
+    font-family: Noto Sans CJK JP;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.75px;
+    margin-right: 16px;
+  }
+  
+  .countdown span {
+    color: #fff;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .flex-wrapper {
+    display: flex;
+  }
+  
+  .place-and-count .flex-wrapper {
+    width: 247px;
+    margin: 0 auto;
+    justify-content: right;
+  }
+  
+  .place-and-count .flex-wrapper p {
+    transform: scale(0.8);
+    color: #fff;
+    font-family: Noto Sans CJK JP;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 4px;
+  }
+  
+  #explain {
+    height: 323px;
+  }
+  
+  .line {
+    width: 100%;
+  }
+  
+  .explain-content {
+    width: 328px;
+    height: 253px;
+    margin: 0 auto;
+    border: #fff solid 1px;
+    position: relative;
+    margin-top: 45px;
+  }
+  
+  .explain-content p {
+    color: #fff;
+    font-family: Noto Serif JP;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    height: 199px;
+    margin-top: 36px;
+    text-align: center;
+  }
+  
+  .explain-content span:nth-of-type(1),
+  .explain-content span:nth-of-type(2) {
+    color: #000;
+    text-align: center;
+    font-family: Noto Serif JP;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #fff;
+  }
+  
+  .explain-content span:nth-of-type(3),
+  .explain-content span:nth-of-type(4) {
+    color: #000;
+    font-family: Noto Serif JP;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #fff;
+  }
+  
+  .explain-content span:nth-of-type(5) {
+    color: #fff;
+    font-family: Noto Serif JP;
+    font-size: 12px;
+  }
+  
+  .black-image {
+    position: absolute;
+    top: -25px;
+    left: 55.5px;
+    background-image: url(images/black-image.webp);
+    width: 217px;
+    height: 63px;
+  }
+  
+  #explain h1 {
+    color: #fff;
+    text-align: center;
+    font-family: GN-Kin-iro_SansSerif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+  }
+  
+  #explain .flex-wrapper {
+    margin-top: 17px;
+    margin-bottom: 13px;
+  }
+  
+  .swiper-container{
+    margin-top: 17px;
+    margin-bottom: 12px;
+  }
+  
+  .swiper-wrapper {
+    width: 100%;
+    height: 250px;
+  }
+  
+  /* 全スライド共通スタイル */
+  
+  .swiper-slide {
+    color: #ffffff;
+    width: 78.93vw;
+    height: 296px;
+    text-align: center;
+    line-height: 110px;
+  }
+
+  .overview{
+    height: 377px;
+    background-color: #000;
 }
+
+.overview h1{
+    font-family: 'GN-Kin-iro_SansSerif'; 
+    color: #000;
+    background-image: url(img/平行四辺形白.png);
+    text-align: center;
+    font-size: 53px;
+    font-weight: 400;
+    padding-top: 20px;
+    background-position-x: 5px;
+}
+
+.storyimg{
+    width: 150px;
+    height: 130px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.storymore{
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    margin-left: 90px;
+    margin-top: 90px;
+}
+
+.performerimg{
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.performermore{
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    margin-left: 40px;
+    margin-top: 140px;
+}
+
+.performer{
+    width: 100px;
+    display: flex;
+}
+
+
+.collaboration{
+    width: 375px;
+    height: 216px;
+    border: 0.5px solid #000;
+    background-image: url(img/gun.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 237px;
+    background-position-y: -10px;
+}
+
+.menubox{
+    width: 325px;
+    height: 175px;
+    border: white solid 0.4px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.menubox h1{
+    color: white;
+    margin-left: 104px;
+    margin-top: 73.38px;
+}
+
+.sponsor{
+    position: relative;
+    height: 298px;
+}
+
+.sponsor-title img{
+    margin-top: 40px;
+    width: 320px;
+    height: 159px;
+}
+
+.sponsor-title{
+    z-index: 2;
+    position: relative;
+    margin-top: 20px;
+    height: 120px;
+    border-top: white solid 1px;
+    border-bottom: white solid 1px;
+    text-align: center;
+    background-color: #000;
+}
+
+
+
+.sponsor-decoration{
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    z-index: 2;
+    height: 125px;
+    width: 362px;
+    padding: 0;
+    border-top: white solid 1px;
+    border-left: white solid 1px;
+    border-bottom: white solid 1px;
+    background-color: transparent;
+}
+
+.rainbow-vertical{
+    position: absolute;
+    z-index: 1;
+    top: -37px;
+    width: 300px;
+}
+
+.rainbow-horizontal{
+    width: 305px;
+    position: relative;
+    margin-top: -157px;
+    margin-left: 70px;
+    z-index: 3;
+}
+
+.more{
+    position: relative;
+    z-index: 4;
+    width: 70px;
+    top: -158px;
+    left: 280px;
+}
+
+.contact{
+    height: 412px;
+    background-image: url(images/focus.webp);
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-position-y: -75px;
+    background-position-x: -210px;
+    padding-left: 25px;
+    padding-right: 27px;
+    position: relative;
+}
+
+.form-title{
+    width: 75.05px;
+}
+
+.contact-form{
+    margin-top: -56px;
+}
+
+.contact-form p{
+    font-family: 'Noto Serif JP';
+}
+
+.contact-title{
+    width: 200px;
+    margin-top: -160px;
+    margin-left: 65px;
+}
+
+.name, .mail{
+    position: relative;
+    border: #F6F166 solid 0.5px;
+    display: flex;
+    margin-bottom: 20px;
+    background-color: #000;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.name::before, .mail::before{
+    content:"";
+    display:block;
+    width:0.5px;
+    height:55px;
+    background-color:white;
+    position:absolute;
+    top:0;
+    left:75.05px;
+}
+
+.content{
+    position: relative;
+    border: 0.5px solid #F6F166;
+    display: flex;
+    margin-bottom: 20px;
+    background-color: #000;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content::before{
+    content:"";
+    display:block;
+    width:0.5px;
+    height:151px;
+    background-color:white;
+    position:absolute;
+    top:0;
+    left:75.05px;
+}
+
+.name, .mail p{
+    align-items: center;
+    height: 55px;
+}
+
+.content p{
+    height: 151px;
+    line-height: 151px;
+}
+
+.contact p{
+    color: white;
+    text-align: center;
+}
+
+input{
+    color: white;
+    width: 75%;
+    height: 55px;
+    background-color: #000;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left: 0.5px double white;
+}
+
+.name input{
+    border-top: 0.5px solid #F6F166;
+    border-bottom: 0.5px solid #F6F166;
+}
+
+textarea{
+    color: white;
+    width: 75%;
+    height: 151px;
+    background-color: #000;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left: 0.5px double white;
+}
+
+.send-button{
+    margin-left: 240px;
+    width: 77px;
+    height: 30px;
+    border: none;
+}
+
+/*ここからフッター*/
+footer {
+    background-color: black;
+    padding: 0 25px;
+    height: 580px;
+  }
+  .saitoannai h1{
+    font-size: 14px;
+    font-family: "Noto Serif JP";
+  }
+  .saitoannai h2{
+    font-size: 14px;
+    text-align: right;
+    margin-top: 40px;
+    font-family: "Noto Serif JP";
+  }
+  
+  .chuuyasai_big{
+    padding-left: 39.3%;;
+    margin-top: 50px;
+    
+  }
+  .chuuyasai_big p{
+    writing-mode: vertical-rl;
+    font-size: 70px;
+    font-family: "GN-Kin-iro_SansSerif", sans-serif;
+  }
+  
+  .link_big{
+    color: white;
+    text-align: center;
+    display: block;
+    font-family: Noto Serif JP;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+    margin-top: 8px;
+  }
+  .link_big:hover{
+    color: rgb(255, 242, 0);
+  }
+  .link_big1{
+    color: white;
+    text-align: center;
+    display: block;
+    font-family: Noto Serif JP;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+    margin-top: 8px;
+  
+  }
+  .link_small{
+    display: block;
+    text-align: center;
+    font-size: 11px;
+    margin-top: 6px;
+  }
+  .link_small1{
+    display: block;
+    text-align: center;
+    font-size: 11px;
+  }
+  
+  hr{
+    border-top: 0px solid #fff;
+  }
+  .saitoannai h3{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 10px;
+    font-weight: 100;
+    font-family: "Noto Serif JP";
+  }
+
+/* -----------------------------------sponsors.htmlのcss------------------------------------------------ */  
+@font-face {
+    font-family: "kiniro";
+    src: url("font/GN-Kin-iro_SansSerif/GN-Kin-iro_SansSerif.ttf") format("truetype");
+  }
+/* 
+  header{
+    height: 44px;
+    background-color: #fff;
+    position:sticky;
+}
+
+.header-img {
+    width: 50px;  
+    height: 31px;
+    margin-top: 7px;
+    margin-left: 18px;
+} */
+
+
+
+.sponsor {
+    width: 375px;
+    background-color: #030000;
+    height: 241px;
+    color: #FFFFFF; 
+}
+
+.sponsor-h1{
+    font-size: 40px;
+    font-family: "kiniro", sans-serif;
+    padding-top: 100px;
+    padding-left: 64px    
+}
+
+.korabo{
+    width: 375px;
+    background-color: #030000;
+    height: 114px;
+    color: #FFFFFF;
+    margin-top: 3px;
+
+}
+
+.korabo-h2{
+    font-size: 24px;
+    font-family: "kiniro", sans-serif;
+    padding-top: 50px;
+    padding-left: 98px;
+}
+
+.kyousan{
+    width: 375px;
+    background-color: #030000;
+    color: #FFFFFF;
+    margin-top: 3px;
+}
+.kyousan-h3{
+    font-size: 24px;
+    font-family: "kiniro", sans-serif;
+    padding-top: 20px;
+    padding-left: 80px;
+}
+
+.waku{
+    margin: 60px 50px 0px 50px;
+}
+.waku-img{
+    margin-bottom: 20px;
+}
+
+.waku-img1 {
+    margin-left: 55px;
+    margin-bottom: 20px;
+}
+
+@font-face {
+    font-family: "noto";
+    src: url("font/NotoSansJP-VariableFont_wght.ttf") format("truetype");
+  }
+
+
+pre{
+    color: #FFFFFF;
+    font-family: "noto",sans-serif;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+/*----------------------------about.htmlのcss---------------------------------*/
+.kikakugaiyou-background {
+    width: 375px;
+    height: 300px;
+    top: 44px;
+  }
+  .kikakugaiyou-background h1 {
+    text-align: center;
+    line-height: 240px;
+    height: 240px;
+    font-family: "GN-Kin-iro_SansSerif", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    position: relative;
+    z-index: 2
+  }
+  /*ストーリー*/
+  .story h1 {
+    text-align: center;
+    font-family: "GN-Kin-iro_SansSerif";
+    font-size: 24px;
+    position: relative;
+    z-index: 2;
+  }
+  .story p {
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 13px;
+    position: relative;
+    z-index: 2;
+  }
+  /*団体一覧*/
+  .danntai {
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 375px;
+  }
+  .itirann {
+    margin-top: 120px;
+    text-align: center;
+  }
+  .itirann h1{
+    font-family:"GN-Kin-iro_SansSerif" ;
+    font-size: 24px;
+    line-height: 24px;
+    position: relative;
+    z-index: 2;
+    font-weight: 400;
+  }
+  /*下駄っぱーず*/
+  .geta {
+    width: 375px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+  }
+  .geta-photo-wrapper {
+    margin-top: 10px;
+  }
+  .geta-photo {
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .geta-photo-wrapper p {
+    height: 23px;
+    width: 96px;
+    font-family: "Noto Sans CJK JP";
+  }
+  .geta-sentence {
+    margin-right: 25px;
+  }
+  .geta-sentence p {
+    width: 171px;
+    height: 247px;
+    font-size: 12px;
+    margin-right: 25px;
+    font-family: "Noto Sans CJK JP";
+  }
+  /*よさこい*/
+  .yosa {
+    margin-top: 40px;
+    width: 375px;
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    position: relative;
+    z-index: 2;
+  }
+  .yosa-photo-wrapper {
+    margin-right: 70px;
+  }
+  .yosa-photo-wrapper p {
+    margin-top: 10px;
+    font-family: "Noto Sans CJK JP";
+    text-align: center;
+    margin-left: 4px;
+  }
+  .yosa-photo {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .yosa-sentence p {
+    width: 171px;
+    height: 247px;
+    font-size: 12px;
+    font-family: "Noto Sans CJK JP";
+  }
+  /*バンカラ」*/
+  .bannkara {
+    margin-top: 40px;
+    width: 375px;
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    position: relative;
+    z-index: 2;
+  }
+  .bannkara-photo-wrapper {
+    margin-top: 10px;
+  }
+  .bannkara-photo-wrapper p {
+    font-family: "Noto Sans CJK JP";
+    text-align: center;
+  }
+  .bannkara-photo {
+    margin-left: 10px;
+  }
+  .bannkara-sentence p {
+    width: 171px;
+    height: 247px;
+    font-size: 12px;
+    margin-right: 50px;
+    font-family: "Noto Sans CJK JP";
+  }
+  /*夏目坂46*/
+  .natsume {
+    margin-top: 40px;
+    width: 375px;
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+  }
+  .natsume-photo-wrapper {
+    
+    margin-top: 10px;
+    margin-right: 80px;
+  }
+  .natsume-photo-wrapper p {
+    font-family: "Noto Sans CJK JP";
+    margin-bottom: 20px;
+  }
+  
+  .natsume-sentence p {
+    width: 171px;
+    height: 247px;
+    font-size: 12px;
+    margin-right: 25px;
+    font-family: "Noto Sans CJK JP";
+  }
+  /*煙*/
+  .smog1{
+    position: absolute;
+    z-index: 1;
+    top: 140px;
+  }
+  .smog2{
+    position: absolute;
+    z-index: 1;
+    top: 410px;
+  }
+  .smog3{
+    position: absolute;
+    z-index: 1;
+    top: 1050px;
+  }
+  /*ここからフッター*/
+  footer {
+    background-color: black;
+    padding: 0 25px;
+    height: 580px;
+  }
+  .saitoannai h1{
+    font-size: 14px;
+    font-family: "Noto Serif JP";
+  }
+  .saitoannai h2{
+    font-size: 14px;
+    text-align: right;
+    margin-top: 40px;
+    font-family: "Noto Serif JP";
+  }
+  
+  .chuuyasai_big{
+    padding-left: 39.3%;;
+    margin-top: 50px;
+    
+  }
+  .chuuyasai_big p{
+    writing-mode: vertical-rl;
+    font-size: 70px;
+    font-family: "GN-Kin-iro_SansSerif", sans-serif;
+  }
+  
+  .link_big{
+    color: white;
+    text-align: center;
+    display: block;
+    font-family: Noto Serif JP;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+    margin-top: 8px;
+  }
+  .link_big:hover{
+    color: rgb(255, 242, 0);
+  }
+  .link_big1{
+    color: white;
+    text-align: center;
+    display: block;
+    font-family: Noto Serif JP;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+    margin-top: 8px;
+  
+  }
+  .link_small{
+    display: block;
+    text-align: center;
+    font-size: 11px;
+    margin-top: 6px;
+  }
+  .link_small1{
+    display: block;
+    text-align: center;
+    font-size: 11px;
+  }
+  
+  hr{
+    border-top: 0px solid #fff;
+  }
+  .saitoannai h3{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 10px;
+    font-family: "Noto Serif JP";
+  }
