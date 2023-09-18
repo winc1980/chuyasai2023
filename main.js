@@ -33,7 +33,7 @@ const countdown = () => {
   setInterval(countdown, 1);
   
   const video = document.querySelector("#video");
-  const videoSrc = "image/movie.m3u8";
+  const videoSrc = "images/movie.m3u8";
   
   if (Hls.isSupported()) {
     const hls = new Hls();
