@@ -14,11 +14,18 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css" />
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri() ?>" media="all">
+  <script type="text/javascript" src="<?php echo is_front_page() ? get_theme_file_uri('js/loading.js') : '' ?>"></script>
   <?php wp_head() ?>
 </head>
 
 <body>
+  <div class="loading" role="loading">
+    <div class="lo-main">
+      <h1>now loading...</h1>
+    </div>
+  </div>
   <div class="container">
     <!-- ヘッダー　ここから -->
     <header></header>
