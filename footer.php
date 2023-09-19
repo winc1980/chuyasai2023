@@ -29,7 +29,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/hls.js/8.0.0-beta.3/hls.js"></script>
 <input type="hidden" id="videoPath" value="<?php echo get_theme_file_uri('images/movie.m3u8') ?>">
-<script type="text/javascript" src="<?php echo get_theme_file_uri('main.js') ?>"></script>
+<script type="text/javascript" src="<?php echo is_front_page() ? get_theme_file_uri('main.js') : '' ?>"></script>
 </div>
 </body>
 
