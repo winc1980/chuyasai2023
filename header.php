@@ -23,7 +23,7 @@
 <body>
   <div class="loading" role="loading">
     <div class="lo-main">
-      <img id="loadingLogo" src="<?php echo get_theme_file_uri('images/loading-white.png') ?>">
+      <img id="loadingLogo" class="opacity-0" src="<?php echo get_theme_file_uri('images/loading-white.png') ?>">
       <h1>now loading...</h1>
     </div>
   </div>
