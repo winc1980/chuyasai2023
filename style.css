@@ -1,7 +1,20 @@
+@import url("./css/loading.css");
+
 html {
   scroll-behavior: smooth;
   font-size: 62.5%;
   font-family: "Noto Sans", serif;
+}
+
+
+.d-none {
+  display: none !important;
+}
+.d-block {
+  display: block !important;
+}
+.opacity-0 {
+  opacity: 0;
 }
 
 body * {
@@ -43,6 +56,7 @@ main {
 }
 
 #title-wrapper {
+  position: relative;
   height: 668px;
 }
 
@@ -59,18 +73,17 @@ main {
   bottom: 0;
   left: 0;
   background-color: #000;
-  opacity: 0.6;
-  z-index: -1;
+  opacity: 1;
   overflow: hidden;
+  z-index: -1;
+
 }
 
 #video {
   position: absolute;
-  z-index: -2;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 100vw;
   height: 645px;
   min-height: 100%;
   min-width: 100%;
@@ -148,6 +161,7 @@ main {
   margin-left: 4px;
 }
 
+
 #smoke-1,
 #smoke-2,
 #smoke-3{
@@ -183,7 +197,6 @@ main {
   height: 43%;
   margin-top: -75%;
 }
-
 
 #explain {
   height: 323px;
@@ -387,7 +400,10 @@ main {
   background-color: #000;
 }
 
-
+#explain .flex-wrapper {
+  margin-top: 17px;
+  margin-bottom: 13px;
+}
 
 .sponsor-decoration {
   position: absolute;
@@ -572,9 +588,7 @@ footer {
 
 .chuuyasai_big {
   padding-left: 39.3%;
-  ;
   margin-top: 50px;
-
 }
 
 .chuuyasai_big p {
@@ -609,7 +623,6 @@ footer {
   font-weight: 700;
   line-height: 24px;
   margin-top: 8px;
-
 }
 
 .link_small {
@@ -658,8 +671,6 @@ hr {
     margin-left: 18px;
 } */
 
-
-
 .sponsor {
   width: 375px;
   /* canvasタグを有効にするために無効化しました */
@@ -672,16 +683,15 @@ hr {
   font-size: 40px;
   font-family: "kiniro", sans-serif;
   padding-top: 100px;
-  padding-left: 64px
+  padding-left: 64px;
 }
 
 .korabo {
   width: 375px;
   background-color: #030000;
   height: 114px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 3px;
-
 }
 
 .korabo-h2 {
@@ -723,7 +733,6 @@ hr {
   src: url("font/NotoSansJP-VariableFont_wght.ttf") format("truetype");
 }
 
-
 pre {
   color: #FFFFFF;
   font-family: "noto", sans-serif;
@@ -746,7 +755,7 @@ pre {
   font-size: 40px;
   font-weight: 400;
   position: relative;
-  z-index: 2
+  z-index: 2;
 }
 
 /*ストーリー*/
@@ -873,7 +882,6 @@ pre {
 .bannkara-photo-wrapper {
   margin-top: 10px;
 }
-
 .bannkara-photo-wrapper p {
   font-family: "Noto Sans CJK JP";
   text-align: center;
@@ -901,7 +909,6 @@ pre {
 }
 
 .natsume-photo-wrapper {
-
   margin-top: 10px;
   margin-right: 80px;
 }
@@ -959,9 +966,7 @@ footer {
 
 .chuuyasai_big {
   padding-left: 39.3%;
-  ;
   margin-top: 50px;
-
 }
 
 .chuuyasai_big p {
@@ -996,7 +1001,6 @@ footer {
   font-weight: 700;
   line-height: 24px;
   margin-top: 8px;
-
 }
 
 .link_small {
