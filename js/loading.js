@@ -30,6 +30,8 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 window.onload = () => {
-  //document.querySelector(".loading").setAttribute("class", "loading d-none");
+  setTimeout(() => {
+    document.querySelector(".loading").setAttribute("class", "loading d-none");
+  }, 2000);
   console.log("onload.");
 };
