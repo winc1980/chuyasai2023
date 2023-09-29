@@ -1,9 +1,9 @@
-@import url("./css/loading.css");
+@import url('./css/loading.css');
 
 html {
   scroll-behavior: smooth;
   font-size: 62.5%;
-  font-family: "Noto Sans", serif;
+  font-family: 'Noto Sans', serif;
 }
 
 .d-none {
@@ -17,7 +17,7 @@ html {
 }
 
 body * {
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   box-sizing: border-box;
   text-decoration: none;
   font-size: 1.6rem;
@@ -39,9 +39,9 @@ main {
 }
 
 @font-face {
-  font-family: "GN-Kin-iro_SansSerif";
-  src: url("font/GN-Kin-iro_SansSerif/GN-Kin-iro_SansSerif.ttf")
-    format("truetype");
+  font-family: 'GN-Kin-iro_SansSerif';
+  src: url('font/GN-Kin-iro_SansSerif/GN-Kin-iro_SansSerif.ttf')
+    format('truetype');
 }
 
 .container {
@@ -267,7 +267,7 @@ main {
 }
 
 .overview h1 {
-  font-family: "GN-Kin-iro_SansSerif";
+  font-family: 'GN-Kin-iro_SansSerif';
   color: #000;
   background-image: url(images/平行四辺形白.webp);
   text-align: center;
@@ -416,7 +416,7 @@ main {
 }
 
 .contact-form p {
-  font-family: "Noto Serif JP";
+  font-family: 'Noto Serif JP';
 }
 
 .contact-title {
@@ -439,7 +439,7 @@ main {
 
 .name::before,
 .mail::before {
-  content: "";
+  content: '';
   display: block;
   width: 0.5px;
   height: 55px;
@@ -460,7 +460,7 @@ main {
 }
 
 .content::before {
-  content: "";
+  content: '';
   display: block;
   width: 0.5px;
   height: 151px;
@@ -528,13 +528,13 @@ footer {
 }
 .saitoannai h1 {
   font-size: 14px;
-  font-family: "Noto Serif JP";
+  font-family: 'Noto Serif JP';
 }
 .saitoannai h2 {
   font-size: 14px;
   text-align: right;
   margin-top: 40px;
-  font-family: "Noto Serif JP";
+  font-family: 'Noto Serif JP';
 }
 
 .chuuyasai_big {
@@ -544,7 +544,7 @@ footer {
 .chuuyasai_big p {
   writing-mode: vertical-rl;
   font-size: 70px;
-  font-family: "GN-Kin-iro_SansSerif", sans-serif;
+  font-family: 'GN-Kin-iro_SansSerif', sans-serif;
 }
 
 .link_big {
@@ -593,14 +593,14 @@ hr {
   margin-bottom: 30px;
   font-size: 10px;
   font-weight: 100;
-  font-family: "Noto Serif JP";
+  font-family: 'Noto Serif JP';
 }
 
 /* -----------------------------------sponsors.htmlのcss------------------------------------------------ */
 @font-face {
-  font-family: "kiniro";
-  src: url("font/GN-Kin-iro_SansSerif/GN-Kin-iro_SansSerif.ttf")
-    format("truetype");
+  font-family: 'kiniro';
+  src: url('font/GN-Kin-iro_SansSerif/GN-Kin-iro_SansSerif.ttf')
+    format('truetype');
 }
 /* 
   header{
@@ -625,7 +625,7 @@ hr {
 
 .sponsor-h1 {
   font-size: 40px;
-  font-family: "kiniro", sans-serif;
+  font-family: 'kiniro', sans-serif;
   padding-top: 100px;
   padding-left: 64px;
 }
@@ -640,7 +640,7 @@ hr {
 
 .korabo-h2 {
   font-size: 24px;
-  font-family: "kiniro", sans-serif;
+  font-family: 'kiniro', sans-serif;
   padding-top: 50px;
   padding-left: 98px;
 }
@@ -653,7 +653,7 @@ hr {
 }
 .kyousan-h3 {
   font-size: 24px;
-  font-family: "kiniro", sans-serif;
+  font-family: 'kiniro', sans-serif;
   padding-top: 20px;
   padding-left: 80px;
 }
@@ -671,13 +671,13 @@ hr {
 }
 
 @font-face {
-  font-family: "noto";
-  src: url("font/NotoSansJP-VariableFont_wght.ttf") format("truetype");
+  font-family: 'noto';
+  src: url('font/NotoSansJP-VariableFont_wght.ttf') format('truetype');
 }
 
 pre {
   color: #ffffff;
-  font-family: "noto", sans-serif;
+  font-family: 'noto', sans-serif;
   font-size: 15px;
   margin-bottom: 20px;
 }
@@ -692,7 +692,7 @@ pre {
   text-align: center;
   line-height: 240px;
   height: 240px;
-  font-family: "GN-Kin-iro_SansSerif", sans-serif;
+  font-family: 'GN-Kin-iro_SansSerif', sans-serif;
   font-size: 40px;
   font-weight: 400;
   position: relative;
@@ -701,7 +701,7 @@ pre {
 /*ストーリー*/
 .story h1 {
   text-align: center;
-  font-family: "GN-Kin-iro_SansSerif";
+  font-family: 'GN-Kin-iro_SansSerif';
   font-size: 24px;
   position: relative;
   z-index: 2;
@@ -725,7 +725,7 @@ pre {
   text-align: center;
 }
 .itirann h1 {
-  font-family: "GN-Kin-iro_SansSerif";
+  font-family: 'GN-Kin-iro_SansSerif';
   font-size: 24px;
   line-height: 24px;
   position: relative;
@@ -751,7 +751,7 @@ pre {
 .geta-photo-wrapper p {
   height: 23px;
   width: 96px;
-  font-family: "Noto Sans CJK JP";
+  font-family: 'Noto Sans CJK JP';
 }
 .geta-sentence {
   margin-right: 25px;
@@ -761,7 +761,7 @@ pre {
   height: 247px;
   font-size: 12px;
   margin-right: 25px;
-  font-family: "Noto Sans CJK JP";
+  font-family: 'Noto Sans CJK JP';
 }
 /*よさこい*/
 .yosa {
@@ -778,7 +778,7 @@ pre {
 }
 .yosa-photo-wrapper p {
   margin-top: 10px;
-  font-family: "Noto Sans CJK JP";
+  font-family: 'Noto Sans CJK JP';
   text-align: center;
   margin-left: 4px;
 }
@@ -790,7 +790,7 @@ pre {
   width: 171px;
   height: 247px;
   font-size: 12px;
-  font-family: "Noto Sans CJK JP";
+  font-family: 'Noto Sans CJK JP';
 }
 /*バンカラ」*/
 .bannkara {
@@ -806,7 +806,7 @@ pre {
   margin-top: 10px;
 }
 .bannkara-photo-wrapper p {
-  font-family: "Noto Sans CJK JP";
+  font-family: 'Noto Sans CJK JP';
   text-align: center;
 }
 .bannkara-photo {
@@ -817,7 +817,7 @@ pre {
   height: 247px;
   font-size: 12px;
   margin-right: 50px;
-  font-family: "Noto Sans CJK JP";
+  font-family: 'Noto Sans CJK JP';
 }
 /*夏目坂46*/
 .natsume {
@@ -832,7 +832,7 @@ pre {
   margin-right: 80px;
 }
 .natsume-photo-wrapper p {
-  font-family: "Noto Sans CJK JP";
+  font-family: 'Noto Sans CJK JP';
   margin-bottom: 20px;
 }
 
@@ -841,7 +841,7 @@ pre {
   height: 247px;
   font-size: 12px;
   margin-right: 25px;
-  font-family: "Noto Sans CJK JP";
+  font-family: 'Noto Sans CJK JP';
 }
 /*煙*/
 .smog1 {
@@ -867,13 +867,13 @@ footer {
 }
 .saitoannai h1 {
   font-size: 14px;
-  font-family: "Noto Serif JP";
+  font-family: 'Noto Serif JP';
 }
 .saitoannai h2 {
   font-size: 14px;
   text-align: right;
   margin-top: 40px;
-  font-family: "Noto Serif JP";
+  font-family: 'Noto Serif JP';
 }
 
 .chuuyasai_big {
@@ -883,7 +883,7 @@ footer {
 .chuuyasai_big p {
   writing-mode: vertical-rl;
   font-size: 70px;
-  font-family: "GN-Kin-iro_SansSerif", sans-serif;
+  font-family: 'GN-Kin-iro_SansSerif', sans-serif;
 }
 
 .link_big {
@@ -931,5 +931,5 @@ hr {
   margin-top: 50px;
   margin-bottom: 30px;
   font-size: 10px;
-  font-family: "Noto Serif JP";
+  font-family: 'Noto Serif JP';
 }
