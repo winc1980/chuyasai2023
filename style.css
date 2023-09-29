@@ -1,11 +1,10 @@
-@import url("./css/loading.css");
+@import url('./css/loading.css');
 
 html {
   scroll-behavior: smooth;
   font-size: 62.5%;
-  font-family: "Noto Sans", serif;
+  font-family: 'Noto Sans', serif;
 }
-
 
 .d-none {
   display: none !important;
@@ -18,7 +17,7 @@ html {
 }
 
 body * {
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   box-sizing: border-box;
   text-decoration: none;
   font-size: 1.6rem;
@@ -36,13 +35,13 @@ p {
 }
 
 main {
-  background-color: black;
   color: aliceblue;
 }
 
 @font-face {
-  font-family: "GN-Kin-iro_SansSerif";
-  src: url("font/GN-Kin-iro_SansSerif/GN-Kin-iro_SansSerif.ttf") format("truetype");
+  font-family: 'GN-Kin-iro_SansSerif';
+  src: url('font/GN-Kin-iro_SansSerif/GN-Kin-iro_SansSerif.ttf')
+    format('truetype');
 }
 
 .container {
@@ -76,7 +75,6 @@ main {
   opacity: 1;
   overflow: hidden;
   z-index: -1;
-
 }
 
 #video {
@@ -161,10 +159,9 @@ main {
   margin-left: 4px;
 }
 
-
 #smoke-1,
 #smoke-2,
-#smoke-3{
+#smoke-3 {
   position: relative;
 }
 
@@ -177,7 +174,7 @@ main {
 
 #myCanvas-1,
 #myCanvas-2,
-#myCanvas-3{
+#myCanvas-3 {
   width: 100%;
   position: relative;
   opacity: 0.7;
@@ -302,8 +299,7 @@ main {
 
 .overview {
   height: 377px;
-  /* canvasタグを有効にするために無効にしました */
-  /* background-color: #000; */
+  background-color: #000;
 }
 
 .overview h1 {
@@ -351,12 +347,10 @@ main {
   display: flex;
 }
 
-
 .collaboration {
   width: 375px;
-  height: 195px;
-  /* jsの関係で無効化しました */
-  /* border: 0.5px solid #000; */
+  height: 216px;
+  border: 0.5px solid #000;
   background-image: url(img/gun.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -398,11 +392,6 @@ main {
   border-bottom: white solid 1px;
   text-align: center;
   background-color: #000;
-}
-
-#explain .flex-wrapper {
-  margin-top: 17px;
-  margin-bottom: 13px;
 }
 
 .sponsor-decoration {
@@ -475,7 +464,7 @@ main {
 .name,
 .mail {
   position: relative;
-  border: #F6F166 solid 0.5px;
+  border: #f6f166 solid 0.5px;
   display: flex;
   margin-bottom: 20px;
   background-color: #000;
@@ -486,7 +475,7 @@ main {
 
 .name::before,
 .mail::before {
-  content: "";
+  content: '';
   display: block;
   width: 0.5px;
   height: 55px;
@@ -498,7 +487,7 @@ main {
 
 .content {
   position: relative;
-  border: 0.5px solid #F6F166;
+  border: 0.5px solid #f6f166;
   display: flex;
   margin-bottom: 20px;
   background-color: #000;
@@ -507,7 +496,7 @@ main {
 }
 
 .content::before {
-  content: "";
+  content: '';
   display: block;
   width: 0.5px;
   height: 151px;
@@ -545,8 +534,8 @@ input {
 }
 
 .name input {
-  border-top: 0.5px solid #F6F166;
-  border-bottom: 0.5px solid #F6F166;
+  border-top: 0.5px solid #f6f166;
+  border-bottom: 0.5px solid #f6f166;
 }
 
 textarea {
@@ -573,28 +562,25 @@ footer {
   padding: 0 25px;
   height: 580px;
 }
-
 .saitoannai h1 {
   font-size: 14px;
-  font-family: "Noto Serif JP";
+  font-family: 'Noto Serif JP';
 }
-
 .saitoannai h2 {
   font-size: 14px;
   text-align: right;
   margin-top: 40px;
-  font-family: "Noto Serif JP";
+  font-family: 'Noto Serif JP';
 }
 
 .chuuyasai_big {
   padding-left: 39.3%;
   margin-top: 50px;
 }
-
 .chuuyasai_big p {
   writing-mode: vertical-rl;
   font-size: 70px;
-  font-family: "GN-Kin-iro_SansSerif", sans-serif;
+  font-family: 'GN-Kin-iro_SansSerif', sans-serif;
 }
 
 .link_big {
@@ -608,11 +594,9 @@ footer {
   line-height: 24px;
   margin-top: 8px;
 }
-
 .link_big:hover {
   color: rgb(255, 242, 0);
 }
-
 .link_big1 {
   color: white;
   text-align: center;
@@ -624,14 +608,12 @@ footer {
   line-height: 24px;
   margin-top: 8px;
 }
-
 .link_small {
   display: block;
   text-align: center;
   font-size: 11px;
   margin-top: 6px;
 }
-
 .link_small1 {
   display: block;
   text-align: center;
@@ -641,22 +623,21 @@ footer {
 hr {
   border-top: 0px solid #fff;
 }
-
 .saitoannai h3 {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 30px;
   font-size: 10px;
   font-weight: 100;
-  font-family: "Noto Serif JP";
+  font-family: 'Noto Serif JP';
 }
 
 /* -----------------------------------sponsors.htmlのcss------------------------------------------------ */
 @font-face {
-  font-family: "kiniro";
-  src: url("font/GN-Kin-iro_SansSerif/GN-Kin-iro_SansSerif.ttf") format("truetype");
+  font-family: 'kiniro';
+  src: url('font/GN-Kin-iro_SansSerif/GN-Kin-iro_SansSerif.ttf')
+    format('truetype');
 }
-
 /* 
   header{
     height: 44px;
@@ -673,15 +654,14 @@ hr {
 
 .sponsor {
   width: 375px;
-  /* canvasタグを有効にするために無効化しました */
-  /* background-color: #030000; */
+  background-color: #030000;
   height: 241px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .sponsor-h1 {
   font-size: 40px;
-  font-family: "kiniro", sans-serif;
+  font-family: 'kiniro', sans-serif;
   padding-top: 100px;
   padding-left: 64px;
 }
@@ -696,21 +676,15 @@ hr {
 
 .korabo-h2 {
   font-size: 24px;
-  font-family: "kiniro", sans-serif;
+  font-family: 'kiniro', sans-serif;
   padding-top: 50px;
-  padding-left: 98px;
-}
-
-.kyousan {
-  width: 375px;
   background-color: #030000;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 3px;
 }
-
 .kyousan-h3 {
   font-size: 24px;
-  font-family: "kiniro", sans-serif;
+  font-family: 'kiniro', sans-serif;
   padding-top: 20px;
   padding-left: 80px;
 }
@@ -718,7 +692,6 @@ hr {
 .waku {
   margin: 60px 50px 0px 50px;
 }
-
 .waku-img {
   margin-bottom: 20px;
 }
@@ -729,13 +702,13 @@ hr {
 }
 
 @font-face {
-  font-family: "noto";
-  src: url("font/NotoSansJP-VariableFont_wght.ttf") format("truetype");
+  font-family: 'noto';
+  src: url('font/NotoSansJP-VariableFont_wght.ttf') format('truetype');
 }
 
 pre {
-  color: #FFFFFF;
-  font-family: "noto", sans-serif;
+  color: #ffffff;
+  font-family: 'noto', sans-serif;
   font-size: 15px;
   margin-bottom: 20px;
 }
@@ -746,27 +719,24 @@ pre {
   height: 300px;
   top: 44px;
 }
-
 .kikakugaiyou-background h1 {
   text-align: center;
   line-height: 240px;
   height: 240px;
-  font-family: "GN-Kin-iro_SansSerif", sans-serif;
+  font-family: 'GN-Kin-iro_SansSerif', sans-serif;
   font-size: 40px;
   font-weight: 400;
   position: relative;
   z-index: 2;
 }
-
 /*ストーリー*/
 .story h1 {
   text-align: center;
-  font-family: "GN-Kin-iro_SansSerif";
+  font-family: 'GN-Kin-iro_SansSerif';
   font-size: 24px;
   position: relative;
   z-index: 2;
 }
-
 .story p {
   margin-top: 20px;
   margin-left: 25px;
@@ -775,28 +745,24 @@ pre {
   position: relative;
   z-index: 2;
 }
-
 /*団体一覧*/
 .danntai {
   padding-left: 25px;
   padding-right: 25px;
   width: 375px;
 }
-
 .itirann {
   margin-top: 120px;
   text-align: center;
 }
-
 .itirann h1 {
-  font-family: "GN-Kin-iro_SansSerif";
+  font-family: 'GN-Kin-iro_SansSerif';
   font-size: 24px;
   line-height: 24px;
   position: relative;
   z-index: 2;
   font-weight: 400;
 }
-
 /*下駄っぱーず*/
 .geta {
   width: 375px;
@@ -806,34 +772,28 @@ pre {
   position: relative;
   z-index: 2;
 }
-
 .geta-photo-wrapper {
   margin-top: 10px;
 }
-
 .geta-photo {
   margin-top: 20px;
   margin-left: 10px;
 }
-
 .geta-photo-wrapper p {
   height: 23px;
   width: 96px;
-  font-family: "Noto Sans CJK JP";
+  font-family: 'Noto Sans CJK JP';
 }
-
 .geta-sentence {
   margin-right: 25px;
 }
-
 .geta-sentence p {
   width: 171px;
   height: 247px;
   font-size: 12px;
   margin-right: 25px;
-  font-family: "Noto Sans CJK JP";
+  font-family: 'Noto Sans CJK JP';
 }
-
 /*よさこい*/
 .yosa {
   margin-top: 40px;
@@ -844,30 +804,25 @@ pre {
   position: relative;
   z-index: 2;
 }
-
 .yosa-photo-wrapper {
   margin-right: 70px;
 }
-
 .yosa-photo-wrapper p {
   margin-top: 10px;
-  font-family: "Noto Sans CJK JP";
+  font-family: 'Noto Sans CJK JP';
   text-align: center;
   margin-left: 4px;
 }
-
 .yosa-photo {
   margin-top: 20px;
   margin-left: 20px;
 }
-
 .yosa-sentence p {
   width: 171px;
   height: 247px;
   font-size: 12px;
-  font-family: "Noto Sans CJK JP";
+  font-family: 'Noto Sans CJK JP';
 }
-
 /*バンカラ」*/
 .bannkara {
   margin-top: 40px;
@@ -878,27 +833,23 @@ pre {
   position: relative;
   z-index: 2;
 }
-
 .bannkara-photo-wrapper {
   margin-top: 10px;
 }
 .bannkara-photo-wrapper p {
-  font-family: "Noto Sans CJK JP";
+  font-family: 'Noto Sans CJK JP';
   text-align: center;
 }
-
 .bannkara-photo {
   margin-left: 10px;
 }
-
 .bannkara-sentence p {
   width: 171px;
   height: 247px;
   font-size: 12px;
   margin-right: 50px;
-  font-family: "Noto Sans CJK JP";
+  font-family: 'Noto Sans CJK JP';
 }
-
 /*夏目坂46*/
 .natsume {
   margin-top: 40px;
@@ -907,14 +858,12 @@ pre {
   justify-content: space-between;
   height: 300px;
 }
-
 .natsume-photo-wrapper {
   margin-top: 10px;
   margin-right: 80px;
 }
-
 .natsume-photo-wrapper p {
-  font-family: "Noto Sans CJK JP";
+  font-family: 'Noto Sans CJK JP';
   margin-bottom: 20px;
 }
 
@@ -923,56 +872,49 @@ pre {
   height: 247px;
   font-size: 12px;
   margin-right: 25px;
-  font-family: "Noto Sans CJK JP";
+  font-family: 'Noto Sans CJK JP';
 }
-
 /*煙*/
 .smog1 {
   position: absolute;
   z-index: 1;
   top: 140px;
 }
-
 .smog2 {
   position: absolute;
   z-index: 1;
   top: 410px;
 }
-
 .smog3 {
   position: absolute;
   z-index: 1;
   top: 1050px;
 }
-
 /*ここからフッター*/
 footer {
   background-color: black;
   padding: 0 25px;
   height: 580px;
 }
-
 .saitoannai h1 {
   font-size: 14px;
-  font-family: "Noto Serif JP";
+  font-family: 'Noto Serif JP';
 }
-
 .saitoannai h2 {
   font-size: 14px;
   text-align: right;
   margin-top: 40px;
-  font-family: "Noto Serif JP";
+  font-family: 'Noto Serif JP';
 }
 
 .chuuyasai_big {
   padding-left: 39.3%;
   margin-top: 50px;
 }
-
 .chuuyasai_big p {
   writing-mode: vertical-rl;
   font-size: 70px;
-  font-family: "GN-Kin-iro_SansSerif", sans-serif;
+  font-family: 'GN-Kin-iro_SansSerif', sans-serif;
 }
 
 .link_big {
@@ -986,11 +928,9 @@ footer {
   line-height: 24px;
   margin-top: 8px;
 }
-
 .link_big:hover {
   color: rgb(255, 242, 0);
 }
-
 .link_big1 {
   color: white;
   text-align: center;
@@ -1002,14 +942,12 @@ footer {
   line-height: 24px;
   margin-top: 8px;
 }
-
 .link_small {
   display: block;
   text-align: center;
   font-size: 11px;
   margin-top: 6px;
 }
-
 .link_small1 {
   display: block;
   text-align: center;
@@ -1019,11 +957,10 @@ footer {
 hr {
   border-top: 0px solid #fff;
 }
-
 .saitoannai h3 {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 30px;
   font-size: 10px;
-  font-family: "Noto Serif JP";
+  font-family: 'Noto Serif JP';
 }
