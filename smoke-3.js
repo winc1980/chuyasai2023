@@ -74,7 +74,7 @@ function initSmoke3() {
         var sp = smokeParticles3.length;
         while (sp--) {
             // textureの回転速度を調整
-            smokeParticles3[sp].rotation.z += (delta * 0.075);
+            smokeParticles3[sp].rotation.z += (delta * 0.125);
         }
     }
 
