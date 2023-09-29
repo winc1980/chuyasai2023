@@ -159,6 +159,42 @@ main {
   margin-left: 4px;
 }
 
+#smoke-1,
+#smoke-2,
+#smoke-3 {
+  position: relative;
+}
+
+.smoke-wrap-1,
+.smoke-wrap-2,
+.smoke-wrap-3 {
+  position: relative;
+  z-index: 1;
+}
+
+#myCanvas-1,
+#myCanvas-2,
+#myCanvas-3 {
+  width: 100%;
+  position: relative;
+  opacity: 0.7;
+}
+
+#myCanvas-1 {
+  height: 70%;
+  margin-top: -150%;
+}
+
+#myCanvas-2 {
+  height: 590px;
+  margin-top: -162.5%;
+}
+
+#myCanvas-3 {
+  height: 43%;
+  margin-top: -75%;
+}
+
 #explain {
   height: 323px;
 }
