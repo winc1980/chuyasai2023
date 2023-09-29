@@ -344,10 +344,10 @@ main {
   height: 195px;
   /* jsの関係で無効化しました */
   /* border: 0.5px solid #000; */
-  background-image: url(img/gun.png);
+  background-image: url(images/gun.webp);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position-x: 237px;
+  background-position-x: 252px;
   background-position-y: -10px;
 }
 
