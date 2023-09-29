@@ -35,6 +35,7 @@ p {
 }
 
 main {
+  background-color: black;
   color: aliceblue;
 }
 
@@ -299,7 +300,8 @@ main {
 
 .overview {
   height: 377px;
-  background-color: #000;
+  /* canvasタグを有効にするために無効にしました */
+  /* background-color: #000; */
 }
 
 .overview h1 {
@@ -349,8 +351,9 @@ main {
 
 .collaboration {
   width: 375px;
-  height: 216px;
-  border: 0.5px solid #000;
+  height: 195px;
+  /* jsの関係で無効化しました */
+  /* border: 0.5px solid #000; */
   background-image: url(img/gun.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -392,6 +395,11 @@ main {
   border-bottom: white solid 1px;
   text-align: center;
   background-color: #000;
+}
+
+#explain .flex-wrapper {
+  margin-top: 17px;
+  margin-bottom: 13px;
 }
 
 .sponsor-decoration {
@@ -562,10 +570,12 @@ footer {
   padding: 0 25px;
   height: 580px;
 }
+
 .saitoannai h1 {
   font-size: 14px;
   font-family: 'Noto Serif JP';
 }
+
 .saitoannai h2 {
   font-size: 14px;
   text-align: right;
@@ -577,6 +587,7 @@ footer {
   padding-left: 39.3%;
   margin-top: 50px;
 }
+
 .chuuyasai_big p {
   writing-mode: vertical-rl;
   font-size: 70px;
@@ -594,9 +605,11 @@ footer {
   line-height: 24px;
   margin-top: 8px;
 }
+
 .link_big:hover {
   color: rgb(255, 242, 0);
 }
+
 .link_big1 {
   color: white;
   text-align: center;
@@ -608,12 +621,14 @@ footer {
   line-height: 24px;
   margin-top: 8px;
 }
+
 .link_small {
   display: block;
   text-align: center;
   font-size: 11px;
   margin-top: 6px;
 }
+
 .link_small1 {
   display: block;
   text-align: center;
@@ -623,6 +638,7 @@ footer {
 hr {
   border-top: 0px solid #fff;
 }
+
 .saitoannai h3 {
   text-align: center;
   margin-top: 50px;
@@ -638,6 +654,7 @@ hr {
   src: url('font/GN-Kin-iro_SansSerif/GN-Kin-iro_SansSerif.ttf')
     format('truetype');
 }
+
 /* 
   header{
     height: 44px;
@@ -654,7 +671,8 @@ hr {
 
 .sponsor {
   width: 375px;
-  background-color: #030000;
+  /* canvasタグを有効にするために無効化しました */
+  /* background-color: #030000; */
   height: 241px;
   color: #ffffff;
 }
@@ -682,6 +700,7 @@ hr {
   color: #ffffff;
   margin-top: 3px;
 }
+
 .kyousan-h3 {
   font-size: 24px;
   font-family: 'kiniro', sans-serif;
@@ -692,6 +711,7 @@ hr {
 .waku {
   margin: 60px 50px 0px 50px;
 }
+
 .waku-img {
   margin-bottom: 20px;
 }
@@ -719,6 +739,7 @@ pre {
   height: 300px;
   top: 44px;
 }
+
 .kikakugaiyou-background h1 {
   text-align: center;
   line-height: 240px;
@@ -729,6 +750,7 @@ pre {
   position: relative;
   z-index: 2;
 }
+
 /*ストーリー*/
 .story h1 {
   text-align: center;
@@ -737,6 +759,7 @@ pre {
   position: relative;
   z-index: 2;
 }
+
 .story p {
   margin-top: 20px;
   margin-left: 25px;
@@ -745,16 +768,19 @@ pre {
   position: relative;
   z-index: 2;
 }
+
 /*団体一覧*/
 .danntai {
   padding-left: 25px;
   padding-right: 25px;
   width: 375px;
 }
+
 .itirann {
   margin-top: 120px;
   text-align: center;
 }
+
 .itirann h1 {
   font-family: 'GN-Kin-iro_SansSerif';
   font-size: 24px;
@@ -763,6 +789,7 @@ pre {
   z-index: 2;
   font-weight: 400;
 }
+
 /*下駄っぱーず*/
 .geta {
   width: 375px;
@@ -772,21 +799,26 @@ pre {
   position: relative;
   z-index: 2;
 }
+
 .geta-photo-wrapper {
   margin-top: 10px;
 }
+
 .geta-photo {
   margin-top: 20px;
   margin-left: 10px;
 }
+
 .geta-photo-wrapper p {
   height: 23px;
   width: 96px;
   font-family: 'Noto Sans CJK JP';
 }
+
 .geta-sentence {
   margin-right: 25px;
 }
+
 .geta-sentence p {
   width: 171px;
   height: 247px;
@@ -794,6 +826,7 @@ pre {
   margin-right: 25px;
   font-family: 'Noto Sans CJK JP';
 }
+
 /*よさこい*/
 .yosa {
   margin-top: 40px;
@@ -804,25 +837,30 @@ pre {
   position: relative;
   z-index: 2;
 }
+
 .yosa-photo-wrapper {
   margin-right: 70px;
 }
+
 .yosa-photo-wrapper p {
   margin-top: 10px;
   font-family: 'Noto Sans CJK JP';
   text-align: center;
   margin-left: 4px;
 }
+
 .yosa-photo {
   margin-top: 20px;
   margin-left: 20px;
 }
+
 .yosa-sentence p {
   width: 171px;
   height: 247px;
   font-size: 12px;
   font-family: 'Noto Sans CJK JP';
 }
+
 /*バンカラ」*/
 .bannkara {
   margin-top: 40px;
@@ -833,6 +871,7 @@ pre {
   position: relative;
   z-index: 2;
 }
+
 .bannkara-photo-wrapper {
   margin-top: 10px;
 }
@@ -840,9 +879,11 @@ pre {
   font-family: 'Noto Sans CJK JP';
   text-align: center;
 }
+
 .bannkara-photo {
   margin-left: 10px;
 }
+
 .bannkara-sentence p {
   width: 171px;
   height: 247px;
@@ -850,6 +891,7 @@ pre {
   margin-right: 50px;
   font-family: 'Noto Sans CJK JP';
 }
+
 /*夏目坂46*/
 .natsume {
   margin-top: 40px;
@@ -858,10 +900,12 @@ pre {
   justify-content: space-between;
   height: 300px;
 }
+
 .natsume-photo-wrapper {
   margin-top: 10px;
   margin-right: 80px;
 }
+
 .natsume-photo-wrapper p {
   font-family: 'Noto Sans CJK JP';
   margin-bottom: 20px;
@@ -874,32 +918,38 @@ pre {
   margin-right: 25px;
   font-family: 'Noto Sans CJK JP';
 }
+
 /*煙*/
 .smog1 {
   position: absolute;
   z-index: 1;
   top: 140px;
 }
+
 .smog2 {
   position: absolute;
   z-index: 1;
   top: 410px;
 }
+
 .smog3 {
   position: absolute;
   z-index: 1;
   top: 1050px;
 }
+
 /*ここからフッター*/
 footer {
   background-color: black;
   padding: 0 25px;
   height: 580px;
 }
+
 .saitoannai h1 {
   font-size: 14px;
   font-family: 'Noto Serif JP';
 }
+
 .saitoannai h2 {
   font-size: 14px;
   text-align: right;
@@ -911,6 +961,7 @@ footer {
   padding-left: 39.3%;
   margin-top: 50px;
 }
+
 .chuuyasai_big p {
   writing-mode: vertical-rl;
   font-size: 70px;
@@ -928,9 +979,11 @@ footer {
   line-height: 24px;
   margin-top: 8px;
 }
+
 .link_big:hover {
   color: rgb(255, 242, 0);
 }
+
 .link_big1 {
   color: white;
   text-align: center;
@@ -942,12 +995,14 @@ footer {
   line-height: 24px;
   margin-top: 8px;
 }
+
 .link_small {
   display: block;
   text-align: center;
   font-size: 11px;
   margin-top: 6px;
 }
+
 .link_small1 {
   display: block;
   text-align: center;
@@ -957,6 +1012,7 @@ footer {
 hr {
   border-top: 0px solid #fff;
 }
+
 .saitoannai h3 {
   text-align: center;
   margin-top: 50px;
