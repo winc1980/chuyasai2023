@@ -133,29 +133,30 @@
     <img class="contact-title" src="<?php echo get_theme_file_uri(
       'images/contact.webp'
     ); ?>" alt="" />
-    <div class="contact-form">
+    <form action="./" method="post" class="contact-form">
       <div class="name">
         <div class="form-title">
           <p>名前</p>
         </div>
-        <input type="text" />
+        <input type="text" name="contactName" />
       </div>
       <div class="mail">
         <div class="form-title">
           <p>メール<br />アドレス</p>
         </div>
-        <input type="text" />
+        <input type="text" name="contactEmail" />
       </div>
       <div class="content">
         <div class="form-title">
           <p>内容</p>
         </div>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <textarea name="contactBody" id="" cols="30" rows="10"></textarea>
       </div>
-      <input class="send-button" type="image" name="submit" src="<?php echo get_theme_file_uri(
-        'images/send.webp'
-      ); ?>" alt=" 送信">
-    </div>
+      <div class="send-button">
+        <img src="<?php echo get_theme_file_uri('images/send.webp'); ?>">
+        <input type="submit" name="contactSubmit" alt="送信">
+      </div>
+    </form>
   </div>
 </main>
 <!-- メインコンテンツ　ここまで -->

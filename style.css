@@ -550,10 +550,23 @@ textarea {
 }
 
 .send-button {
+  position: relative;
   margin-left: 240px;
   width: 77px;
   height: 30px;
   border: none;
+  & img {
+    width: 100%;
+    height: 100%;
+  }
+  & input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+  }
 }
 
 /*ここからフッター*/

@@ -22,7 +22,7 @@
   <?php wp_head(); ?>
 </head>
 
-<body>
+<noscript><body></noscript>
   <?php if (is_front_page()) { ?>
   <div class="loading" role="loading">
     <div class="lo-main">

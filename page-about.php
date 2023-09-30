@@ -37,7 +37,9 @@
             <div class="geta">
               <div class="geta-photo-wrapper">
                 <p>下駄っぱーず</p>
-                <img class="geta-photo" src="images/geta.webp" height="92px" width="81px" />
+                <img class="geta-photo" src="<?php echo get_theme_file_uri(
+                  'images/geta.webp'
+                ); ?>" height="92px" width="81px" />
               </div>
               <div class="geta-sentence">
                 <p>
@@ -61,14 +63,18 @@
               </div>
               <div class="yosa-photo-wrapper">
                 <p>よさこいチーム<br>東京花火</p>
-                <img class="yosa-photo" src="images/yosakoi.webp" height="85px" width="85px">
+                <img class="yosa-photo" src="<?php echo get_theme_file_uri(
+                  'images/yosakoi.webp'
+                ); ?>" height="85px" width="85px">
               </div>
             </div>
             <!--バンカライズム-->
             <div class="bannkara">
               <div class="bannkara-photo-wrapper">
                 <p>バンカライズム<br>万色主義</p>
-                <img class="bannkara-photo" src="images/bannkara.webp" height="90px" width="110px">
+                <img class="bannkara-photo" src="<?php echo get_theme_file_uri(
+                  'images/bannkara.webp'
+                ); ?>" height="90px" width="110px">
               </div>
               <div class="bannkara-sentence">
                 <p>
@@ -92,53 +98,20 @@
               </div>
               <div class="natsume-photo-wrapper">
                 <p>夏目坂46</p>
-                <img class="natsume-photo" src="images/natsume.webp" height="103.68px" width="81px">
+                <img class="natsume-photo" src="<?php echo get_theme_file_uri(
+                  'images/natsume.webp'
+                ); ?>" height="103.68px" width="81px">
               </div>
             </div>
           </div>
       </div>
       </section>
-      <img class="smog1" src="images/smog-right.webp" width="375px">
-      <img class="smog2" src="images/smog-left.webp" width="=375px">
-      <img class="smog3" src="images/smog-right.webp" width="375px">
+      <img class="smog1" src="<? echo get_theme_file_uri('images/smog-right.webp') ?>" width="375px">
+      <img class="smog2" src="<? echo get_theme_file_uri('images/smog-left.webp') ?>" width="=375px">
+      <img class="smog3" src="<?php echo get_theme_file_uri(
+        'images/smog-right.webp'
+      ); ?>" width="375px">
     </main>
     <!-- メインコンテンツ　ここまで -->
-
-    <!-- フッター　ここから -->
-    <footer>
-      <section>
-        <div class="saitoannai">
-          <hr>
-          <h1>11月5日（土）18:00~</h1>
-          <div class="chuuyasai_big">
-            <p>中夜祭</p>
-          </div>
-
-          <div class="kikakugaiyou_btn">
-            <a class="link_big" href="">TOP</a>
-            <a class="link_big" href="">企画概要</a>
-            <a class="link_small" herf="">ストーリー</a>
-            <a class="link_small1" herf="">出演者一覧</a>
-            <a class="link_big" herf="">協賛</a>
-            <a class="link_small" herf="">コラボメニュー</a>
-            <a class="link_small1" herf="">協賛企業・協力企業</a>
-          </div>
-          <h2>早稲田大学3号館前広場</h2>
-          <hr>
-          <h3>copyright©中夜祭2023実行委員会</h3>
-
-        </div>
-</div>
-</section>
-</footer>
-<!-- フッター　ここまで -->
-
-<script type="text/javascript" src="assets/base.js"></script>
-</div>
-</body>
-
-</html>
-
-</html>
 
 <?php get_footer(); ?>
