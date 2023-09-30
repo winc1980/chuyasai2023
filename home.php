@@ -1,11 +1,10 @@
 <?php
-
 /**
  * Template Name: home.php
  */
 ?>
 
-<?php get_header() ?>
+<?php get_header(); ?>
 
 <!-- メインコンテンツ　ここから -->
 <main>
@@ -41,7 +40,9 @@
   </section>
 
   <section id="explain">
-    <img class="line" src="<?php echo get_theme_file_uri('images/topline.webp') ?>" alt="" />
+    <img class="line" src="<?php echo get_theme_file_uri(
+      'images/topline.webp'
+    ); ?>" alt="" />
     <div class="explain-content">
       <p>
         <span>誰</span>が<span>いつ</span>始めたのかわからない<br />決まり事は<br /><span>「4年生が行う」</span><br /><span>「1日目の隈ステの大トリ」</span><br /><span>ただこれだけである。</span><br />学園祭最大規模の観客4000人を動員する名物企画<br />陽が沈み煌びやかなステージで、<br />現役の早稲田に所属する多くの演者と協力団体で<br />早稲田祭を盛り上げる！！
@@ -57,27 +58,53 @@
       <!-- メイン表示部分 -->
       <div class="swiper-wrapper">
         <!-- 各スライド -->
-        <div class="swiper-slide"><img src="<?php echo get_theme_file_uri('images/IMG_2893 1.webp') ?>" alt="Swiper01"></div>
-        <div class="swiper-slide"><img src="<?php echo get_theme_file_uri('images/IMG_2893 1.webp') ?>" alt="Swiper02"></div>
-        <div class="swiper-slide"><img src="<?php echo get_theme_file_uri('images/IMG_2893 1.webp') ?>" alt="Swiper03"></div>
-        <div class="swiper-slide"><img src="<?php echo get_theme_file_uri('images/IMG_2893 1.webp') ?>" alt="Swiper05"></div>
-        <div class="swiper-slide"><img src="<?php echo get_theme_file_uri('images/IMG_2893 1.webp') ?>" alt="Swiper06"></div>
-        <div class="swiper-slide"><img src="<?php echo get_theme_file_uri('images/IMG_2893 1.webp') ?>" alt="Swiper01"></div>
-        <div class="swiper-slide"><img src="<?php echo get_theme_file_uri('images/IMG_2893 1.webp') ?>" alt="Swiper03"></div>
-        <div class="swiper-slide"><img src="<?php echo get_theme_file_uri('images/IMG_2893 1.webp') ?>" alt="Swiper06"></div>
+        <div class="swiper-slide"><img src="<?php echo get_theme_file_uri(
+          'images/IMG_2893 1.webp'
+        ); ?>" alt="Swiper01"></div>
+        <div class="swiper-slide"><img src="<?php echo get_theme_file_uri(
+          'images/IMG_2893 1.webp'
+        ); ?>" alt="Swiper02"></div>
+        <div class="swiper-slide"><img src="<?php echo get_theme_file_uri(
+          'images/IMG_2893 1.webp'
+        ); ?>" alt="Swiper03"></div>
+        <div class="swiper-slide"><img src="<?php echo get_theme_file_uri(
+          'images/IMG_2893 1.webp'
+        ); ?>" alt="Swiper05"></div>
+        <div class="swiper-slide"><img src="<?php echo get_theme_file_uri(
+          'images/IMG_2893 1.webp'
+        ); ?>" alt="Swiper06"></div>
+        <div class="swiper-slide"><img src="<?php echo get_theme_file_uri(
+          'images/IMG_2893 1.webp'
+        ); ?>" alt="Swiper01"></div>
+        <div class="swiper-slide"><img src="<?php echo get_theme_file_uri(
+          'images/IMG_2893 1.webp'
+        ); ?>" alt="Swiper03"></div>
+        <div class="swiper-slide"><img src="<?php echo get_theme_file_uri(
+          'images/IMG_2893 1.webp'
+        ); ?>" alt="Swiper06"></div>
       </div>
-      <img class="line" src="<?php echo get_theme_file_uri('images/bottomline.webp') ?>" alt="" />
+      <img class="line" src="<?php echo get_theme_file_uri(
+        'images/bottomline.webp'
+      ); ?>" alt="" />
     </div>
   </div>
   <div class="overview">
     <h1>企画概要</h1>
     <div class="story">
-      <img class="storyimg" src="<?php echo get_theme_file_uri('images/Story.webp') ?>" alt="">
-      <a href="about.html"><img class="storymore" src="<?php echo get_theme_file_uri('images/arrow.webp') ?>" alt=""></a>
+      <img class="storyimg" src="<?php echo get_theme_file_uri(
+        'images/Story.webp'
+      ); ?>" alt="">
+      <a href="./about"><img class="storymore" src="<?php echo get_theme_file_uri(
+        'images/arrow.webp'
+      ); ?>" alt=""></a>
     </div>
     <div class="performer">
-      <img class="performerimg" src="<?php echo get_theme_file_uri('images/performer.webp') ?>" alt="">
-      <a href="about.html#performer"><img class="performermore" src="<?php echo get_theme_file_uri('images/arrow.webp') ?>" alt=""></a>
+      <img class="performerimg" src="<?php echo get_theme_file_uri(
+        'images/performer.webp'
+      ); ?>" alt="">
+      <a href="./about#performer"><img class="performermore" src="<?php echo get_theme_file_uri(
+        'images/arrow.webp'
+      ); ?>" alt=""></a>
     </div>
   </div>
   <div class="collaboration">
@@ -86,16 +113,26 @@
     </div>
   </div>
   <div class="sponsor">
-    <img class="rainbow-vertical" src="<?php echo get_theme_file_uri('images/縦１.webp') ?>" alt="" />
+    <img class="rainbow-vertical" src="<?php echo get_theme_file_uri(
+      'images/縦１.webp'
+    ); ?>" alt="" />
     <div class="sponsor-title">
-      <img src="<?php echo get_theme_file_uri('images/sponsor.webp') ?>" alt="" />
+      <img src="<?php echo get_theme_file_uri(
+        'images/sponsor.webp'
+      ); ?>" alt="" />
       <div class="sponsor-decoration"></div>
     </div>
-    <img class="rainbow-horizontal" src="<?php echo get_theme_file_uri('images/横２.webp') ?>" alt="" />
-    <a href=""><img class="more" src="<?php echo get_theme_file_uri('images/arrow.webp') ?>" alt="" /></a>
+    <img class="rainbow-horizontal" src="<?php echo get_theme_file_uri(
+      'images/横２.webp'
+    ); ?>" alt="" />
+    <a href=""><img class="more" src="<?php echo get_theme_file_uri(
+      'images/arrow.webp'
+    ); ?>" alt="" /></a>
   </div>
   <div class="contact">
-    <img class="contact-title" src="<?php echo get_theme_file_uri('images/contact.webp') ?>" alt="" />
+    <img class="contact-title" src="<?php echo get_theme_file_uri(
+      'images/contact.webp'
+    ); ?>" alt="" />
     <div class="contact-form">
       <div class="name">
         <div class="form-title">
@@ -115,10 +152,12 @@
         </div>
         <textarea name="" id="" cols="30" rows="10"></textarea>
       </div>
-      <input class="send-button" type="image" name="submit" src="<?php echo get_theme_file_uri('images/send.webp') ?>" alt=" 送信">
+      <input class="send-button" type="image" name="submit" src="<?php echo get_theme_file_uri(
+        'images/send.webp'
+      ); ?>" alt=" 送信">
     </div>
   </div>
 </main>
 <!-- メインコンテンツ　ここまで -->
 
-<?php get_footer() ?>
+<?php get_footer(); ?>

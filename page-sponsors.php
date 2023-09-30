@@ -1,11 +1,10 @@
 <?php
-
 /**
- * Template Name: スポンサー
+ * Template Name: page-sponsors.php
  */
 ?>
 
-<?php get_header() ?>
+<?php get_header(); ?>
 
 <!-- メインコンテンツ　ここから -->
 <main>
@@ -39,4 +38,4 @@
 </main>
 <!-- メインコンテンツ　ここまで -->
 
-<?php get_footer() ?>
+<?php get_footer(); ?>
