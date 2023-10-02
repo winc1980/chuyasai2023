@@ -1,4 +1,6 @@
 <?php
+show_admin_bar(false);
+
 if (!empty($_POST['contactSubmit'])) {
   // メール送信
 

@@ -35,5 +35,43 @@
   <?php } ?>
   <div class="container">
     <!-- ヘッダー　ここから -->
-    <header></header>
+    <header>
+      <div class="header">
+        <a href="#">
+          <img src="<?php echo get_theme_file_uri(
+            'images/titleLogo.png'
+          ); ?>" alt="" />
+          <img src="<?php echo get_theme_file_uri(
+            'images/blackLogo.png'
+          ); ?>" alt="" />
+        </a>
+        <div class="toggle-btn pc">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <nav id="navi">
+        <ul>
+          <li><a href="./">TOP</a></li>
+          <li>
+            <a href="./about">企画概要</a>
+            <ul>
+              <li>ストーリー</li>
+              <li>出演者一覧</li>
+            </ul>
+          </li>
+          <li>
+            <a href="./sponsors">協賛</a>
+            <ul>
+              <li>コラボメニュー</li>
+              <li>協賛企業・協力企業</li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+      <div id="mask"></div>
+    </header>
     <!-- ヘッダー　ここまで -->

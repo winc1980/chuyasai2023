@@ -28,6 +28,7 @@
 <!-- フッター　ここまで -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/hls.js/8.0.0-beta.3/hls.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <input type="hidden" id="videoPath" value="<?php echo get_theme_file_uri(
   'images/movie.m3u8'
 ); ?>">
