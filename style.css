@@ -215,7 +215,7 @@ main {
 
 @font-face {
   font-family: 'GN-Kin-iro_SansSerif';
-  src: url('font/GN-Kin-iro_SansSerif/GN-Kin-iro_SansSerif.ttf')
+  src: url('./font/GN-Kin-iro_SansSerif/GN-Kin-iro_SansSerif.ttf')
     format('truetype');
 }
 
