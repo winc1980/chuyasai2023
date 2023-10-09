@@ -1,0 +1,13 @@
+{
+  // prettier settings
+  "prettier.prettierPath": "./node_modules/prettier",
+
+  // stylelint settings
+  "stylelint.enable": true,
+  "stylelint.configFile": "./.stylelintrc",
+  "stylelint.validate": ["css"],
+  "css.validate": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": true
+  }
+}
