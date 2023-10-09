@@ -6,7 +6,7 @@ if (!empty($_POST['contactSubmit'])) {
 
   // リダイレクト
   $url = get_site_url();
-  header("Location: ${url}");
+  header("Location: {$url}");
   exit();
 }
 ?>

@@ -9,13 +9,13 @@
       </div>
 
       <div class="kikakugaiyou_btn">
-        <a class="link_big" href="">TOP</a>
+        <a class="link_big" href="<?php echo get_home_url() ?>">TOP</a>
         <a class="link_big" href="./about">企画概要</a>
-        <a class="link_small" herf="">ストーリー</a>
-        <a class="link_small1" herf="">出演者一覧</a>
-        <a class="link_big" herf="">協賛</a>
-        <a class="link_small" herf="">コラボメニュー</a>
-        <a class="link_small1" herf="">協賛企業・協力企業</a>
+        <a class="link_small" herf="./about">ストーリー</a>
+        <a class="link_small1" herf="./about">出演者一覧</a>
+        <a class="link_big" herf="./sponsors">協賛</a>
+        <a class="link_small" herf="./sponsors">コラボメニュー</a>
+        <a class="link_small1" herf="./sponsors">協賛企業・協力企業</a>
       </div>
       <h2>早稲田大学3号館前広場</h2>
       <hr>
@@ -35,6 +35,7 @@
 <script type="text/javascript" src="<?php echo is_front_page()
   ? get_theme_file_uri('main.js')
   : ''; ?>"></script>
+<script type="text/javascript" src="<?php echo get_theme_file_uri('js/header.js') ?>"></script>
 </div>
 </body>
 
