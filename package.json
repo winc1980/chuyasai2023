@@ -4,6 +4,7 @@
   },
   "devDependencies": {
     "@prettier/plugin-php": "^0.20.1",
-    "prettier": "^3.0.3"
+    "prettier": "^3.0.3",
+    "stylelint": "^15.10.3"
   }
 }

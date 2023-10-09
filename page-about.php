@@ -106,8 +106,8 @@
           </div>
       </div>
       </section>
-      <img class="smog1" src="<? echo get_theme_file_uri('images/smog-right.webp') ?>" width="375px">
-      <img class="smog2" src="<? echo get_theme_file_uri('images/smog-left.webp') ?>" width="=375px">
+      <img class="smog1" src="<?php echo get_theme_file_uri('images/smog-right.webp') ?>" width="375px">
+      <img class="smog2" src="<?php echo get_theme_file_uri('images/smog-left.webp') ?>" width="=375px">
       <img class="smog3" src="<?php echo get_theme_file_uri(
         'images/smog-right.webp'
       ); ?>" width="375px">

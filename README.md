@@ -8,6 +8,17 @@
 1. ターミナルでプロジェクトディレクトリに移動する
 2. `npm run prettier -- ***.php --write`を実行する
 
+## vscode拡張機能
+
+- Prettier v9.15.0
+- stylelint
+
+## npmパッケージのインストール
+
+```bash
+npm i
+```
+
 ## TODO
 
 - ローディングアニメーション
