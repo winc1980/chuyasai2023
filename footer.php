@@ -3,7 +3,7 @@
   <section>
     <div class="saitoannai">
       <hr>
-      <h1>11月5日（土）18:00~</h1>
+      <h1>11月5日（土）16:25~</h1>
       <div class="chuuyasai_big">
         <p>中夜祭</p>
       </div>

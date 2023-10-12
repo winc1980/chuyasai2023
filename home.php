@@ -15,7 +15,7 @@
       </div>
       <p class="event">４年が贈る最後の企画</p>
       <div class="place-and-count">
-        <p class="date">11月5日(土)18:00〜<br />早稲田大学３号館前広場</p>
+        <p class="date">11月5日(土)16:25〜<br />大隈講堂前ステージ</p>
         <div class="countdown">
           <p class="until">開催まで</p>
           <span class="countdown__time js-countdown-day">0</span>
