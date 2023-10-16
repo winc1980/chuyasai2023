@@ -220,7 +220,7 @@ main {
 }
 
 .container {
-  max-width: 768px;
+  max-width: 420px;
   margin: 0 auto;
   overflow: hidden;
 }
