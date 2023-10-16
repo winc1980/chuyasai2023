@@ -220,7 +220,7 @@ main {
 }
 
 .container {
-  max-width: 768px;
+  max-width: 420px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -453,8 +453,7 @@ main {
 }
 
 .swiper-container {
-  margin-top: 17px;
-  margin-bottom: 12px;
+  margin: 17px 10px 12px 10px;
 }
 
 .swiper-wrapper {
@@ -466,10 +465,14 @@ main {
 
 .swiper-slide {
   color: #ffffff;
-  width: 78.93vw;
   height: 296px;
   text-align: center;
   line-height: 110px;
+}
+
+.swiper-slide img{
+  width: 100%;
+  object-fit: contain;
 }
 
 .overview {
@@ -762,12 +765,12 @@ footer {
 }
 
 .chuuyasai_big {
-  padding-left: 39.3%;
   margin-top: 50px;
 }
 .chuuyasai_big p {
   writing-mode: vertical-rl;
   font-size: 70px;
+  margin: 0 auto;
   font-family: 'GN-Kin-iro_SansSerif', sans-serif;
 }
 
@@ -1093,16 +1096,6 @@ footer {
   text-align: right;
   margin-top: 40px;
   font-family: 'Noto Serif JP';
-}
-
-.chuuyasai_big {
-  padding-left: 39.3%;
-  margin-top: 50px;
-}
-.chuuyasai_big p {
-  writing-mode: vertical-rl;
-  font-size: 70px;
-  font-family: 'GN-Kin-iro_SansSerif', sans-serif;
 }
 
 .link_big {
