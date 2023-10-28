@@ -3,7 +3,7 @@
   <section>
     <div class="saitoannai">
       <hr>
-      <h1>11月5日（土）16:25~</h1>
+      <h1>11月4日（土）16:25~</h1>
       <div class="chuuyasai_big">
         <p>中夜祭</p>
       </div>
@@ -17,7 +17,7 @@
         <a class="link_small" herf="./sponsors">コラボメニュー</a>
         <a class="link_small1" herf="./sponsors">協賛企業・協力企業</a>
       </div>
-      <h2>早稲田大学3号館前広場</h2>
+      <h2>大隈講堂前ステージ</h2>
       <hr>
       <h3>copyright©中夜祭2023実行委員会</h3>
 
