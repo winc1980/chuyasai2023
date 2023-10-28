@@ -1,6 +1,6 @@
 const countdown = () => {
   const now = new Date();
-  const target = new Date('2023/11/5 18:00:00');
+  const target = new Date('2023/11/4 16:25:00');
   const differ = target.getTime() - now.getTime();
 
   if (differ < 0) return false;
