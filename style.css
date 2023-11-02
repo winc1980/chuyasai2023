@@ -844,7 +844,7 @@ hr {
 } */
 
 .sponsor {
-  width: 375px;
+  width: 100vw;
   background-color: #030000;
   height: 241px;
   color: #ffffff;
@@ -858,11 +858,12 @@ hr {
 }
 
 .korabo {
-  width: 375px;
+  width: 100vw;
   background-color: #030000;
   height: 114px;
   color: #ffffff;
   margin-top: 3px;
+  margin-bottom: 3px;
 }
 
 .korabo-h2 {
@@ -872,12 +873,19 @@ hr {
   background-color: #030000;
   color: #ffffff;
   margin-top: 3px;
+  padding-left: 77px;
 }
+
+.kyousan{
+  background-color: black;
+}
+
 .kyousan-h3 {
   font-size: 24px;
   font-family: 'kiniro', sans-serif;
   padding-top: 20px;
   padding-left: 80px;
+  color: #FFF;
 }
 
 .waku {
@@ -894,7 +902,7 @@ hr {
 
 @font-face {
   font-family: 'noto';
-  src: url('font/NotoSansJP-VariableFont_wght.ttf') format('truetype');
+  src: url('font/NotoSansJP-VariableFont_wght/NotoSansJP-VariableFont_wght.ttf') format('truetype');
 }
 
 pre {
@@ -902,6 +910,73 @@ pre {
   font-family: 'noto', sans-serif;
   font-size: 15px;
   margin-bottom: 20px;
+}
+
+pre:last-child{
+  margin: 0;
+}
+
+@font-face{
+  font-family: "iceberg";
+  src:url('font/Iceberg-Regular/Iceberg-Regular.ttf') format("truetype");
+}
+
+.menu01_wrap,
+.menu02_wrap,
+.menu03_wrap,
+.menu04_wrap{
+    width: 100%;
+    position: relative;
+    height: 158px;
+    background-color: black;
+}
+
+.menu01_wrap img,
+.menu02_wrap img,
+.menu03_wrap img,
+.menu04_wrap img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.menu01-texts_wrap,
+.menu02-texts_wrap,
+.menu03-texts_wrap,
+.menu04-texts_wrap{
+    width: 100px;
+    position: absolute;
+    top: 10%;
+    right: 3%;
+    color: #FFF;
+}
+
+.menu-texts h2,
+.menu-texts p:nth-of-type(1){
+  text-align: right;
+  font-family: "Iceberg";
+}
+
+.menu-texts h2{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.menu-texts p:nth-of-type(1){
+    padding-right: 5px;
+    padding: 0 5px 5px 0;
+    font-size: 24px;
+}
+
+.menu-texts p:nth-of-type(2),
+.menu-texts p:nth-of-type(3),
+.menu-texts p:nth-of-type(4){
+    font-size: 13px;
+    font-family: "Iceberg";
+}
+
+.menu-texts p:nth-of-type(4){
+    text-align: center;
+    padding-top: 10px;
 }
 
 /*----------------------------about.htmlのcss---------------------------------*/
