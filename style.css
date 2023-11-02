@@ -883,9 +883,15 @@ hr {
 .kyousan-h3 {
   font-size: 24px;
   font-family: 'kiniro', sans-serif;
-  padding-top: 20px;
+  padding-top: 40px;
   padding-left: 80px;
   color: #FFF;
+  font-weight: 100;
+}
+
+.kyousan p{
+  padding: 10rem 5rem;
+  text-align: center;
 }
 
 .waku {
@@ -967,7 +973,7 @@ pre:last-child{
     font-size: 24px;
 }
 
-.menu-texts p:nth-of-type(2),
+.menu-texts a:nth-of-type(1),
 .menu-texts p:nth-of-type(3),
 .menu-texts p:nth-of-type(4){
     font-size: 13px;
@@ -977,6 +983,11 @@ pre:last-child{
 .menu-texts p:nth-of-type(4){
     text-align: center;
     padding-top: 10px;
+}
+
+.shop{
+  text-decoration: underline;
+  color: #FFF;
 }
 
 /*----------------------------about.htmlのcss---------------------------------*/
