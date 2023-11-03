@@ -56,15 +56,15 @@
           <li>
             <a href="./about">企画概要</a>
             <ul>
-              <li>ストーリー</li>
-              <li>出演者一覧</li>
+              <li><a href="./about#story">ストーリー</a></li>
+              <li><a href="./about#performer">出演者一覧</a></li>
             </ul>
           </li>
           <li>
             <a href="./sponsors">協賛</a>
             <ul>
-              <li>コラボメニュー</li>
-              <li>協賛企業・協力企業</li>
+              <li><a href="./sponsors">コラボメニュー</a></li>
+              <li><a href="./sponsors">協賛企業・協力企業</a></li>
             </ul>
           </li>
         </ul>
