@@ -11,11 +11,11 @@
       <div class="kikakugaiyou_btn">
         <a class="link_big" href="<?php echo get_home_url() ?>">TOP</a>
         <a class="link_big" href="./about">企画概要</a>
-        <a class="link_small" herf="./about">ストーリー</a>
-        <a class="link_small1" herf="./about">出演者一覧</a>
-        <a class="link_big" herf="./sponsors">協賛</a>
-        <a class="link_small" herf="./sponsors">コラボメニュー</a>
-        <a class="link_small1" herf="./sponsors">協賛企業・協力企業</a>
+        <a class="link_small" href="./about#story">ストーリー</a>
+        <a class="link_small1" href="./about#performer">出演者一覧</a>
+        <a class="link_big" href="./sponsors">協賛</a>
+        <a class="link_small" href="./sponsors">コラボメニュー</a>
+        <a class="link_small1" href="./sponsors">協賛企業・協力企業</a>
       </div>
       <h2>大隈講堂前ステージ</h2>
       <hr>

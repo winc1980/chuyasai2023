@@ -41,6 +41,7 @@ header {
 
 .header {
   width: 100%;
+  max-width: 420px;
 }
 
 .header {
@@ -776,7 +777,7 @@ footer {
   margin-top: 8px;
 }
 .link_big:hover {
-  color: rgb(255, 242, 0);
+  color: #f6c71e;
 }
 .link_big1 {
   color: white;
@@ -1200,12 +1201,14 @@ footer {
   margin-top: 8px;
 }
 .link_small {
+  color: white;
   display: block;
   text-align: center;
   font-size: 11px;
   margin-top: 6px;
 }
 .link_small1 {
+  color: white;
   display: block;
   text-align: center;
   font-size: 11px;
