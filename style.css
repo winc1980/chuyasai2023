@@ -433,6 +433,7 @@ main {
   top: -25px;
   left: 55.5px;
   background-image: url(images/black-image.webp);
+  background-repeat: no-repeat;
   width: 217px;
   height: 63px;
 }

@@ -73,18 +73,18 @@
           <div class="overview ">
             <h1>企画概要</h1>
             <div class="story">
-              <img class="storyimg" src="<?php echo get_theme_file_uri("images/Story.webp"); ?>" alt="">
-              <a href="about.html"><img class="storymore" src="<?php echo get_theme_file_uri("images/arrow.webp"); ?>" alt=""></a>
+              <a href="./about"><img class="storyimg" src="<?php echo get_theme_file_uri("images/Story.webp"); ?>" alt=""></a>
+              <a href="./about"><img class="storymore" src="<?php echo get_theme_file_uri("images/arrow.webp"); ?>" alt=""></a>
             </div>
             <div class="performer">
-              <img class="performerimg" src="<?php echo get_theme_file_uri("images/performer.webp"); ?>" alt="">
-              <a href="about.html#performer"><img class="performermore" src="<?php echo get_theme_file_uri("images/arrow.webp"); ?>" alt=""></a>
+              <a href="./about#performer"><img class="performerimg" src="<?php echo get_theme_file_uri("images/performer.webp"); ?>" alt=""></a>
+              <a href="./about#performer"><img class="performermore" src="<?php echo get_theme_file_uri("images/arrow.webp"); ?>" alt=""></a>
             </div>
           </div>
 
 
           <div class="collaboration">
-            <a href="sponsors.html"><img src="<?php echo get_theme_file_uri("images/collab_menu_banner.webp"); ?>" alt=""></a>
+            <a href="./sponsors"><img src="<?php echo get_theme_file_uri("images/collab_menu_banner.webp"); ?>" alt=""></a>
           </div>
         </div>
         <canvas id="myCanvas-2"></canvas>
