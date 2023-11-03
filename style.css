@@ -361,7 +361,7 @@ main {
 }
 
 #myCanvas-2 {
-  height: 590px;
+  height: 62rem !important;
   margin-top: -162.5%;
 }
 
@@ -477,7 +477,6 @@ main {
 
 .overview {
   height: 377px;
-  background-color: #000;
 }
 
 .overview h1 {
@@ -526,28 +525,18 @@ main {
 }
 
 .collaboration {
-  width: 375px;
-  height: 216px;
   border: 0.5px solid #000;
-  background-image: url(img/gun.png);
-  background-size: contain;
+  background-image: url(images/gun.webp);
+  background-size: 25rem;
   background-repeat: no-repeat;
-  background-position-x: 237px;
+  background-position-x: 200px;
   background-position-y: -10px;
 }
 
-.menubox {
-  width: 325px;
-  height: 175px;
-  border: white solid 0.4px;
-  margin-left: 25px;
-  margin-top: 20px;
-}
-
-.menubox h1 {
-  color: white;
-  margin-left: 104px;
-  margin-top: 73.38px;
+.collaboration img{
+  display: block;
+  width: 90%;
+  margin: 33rem auto 0 auto;
 }
 
 .sponsor {
