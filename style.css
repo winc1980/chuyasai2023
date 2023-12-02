@@ -880,9 +880,17 @@ hr {
   font-weight: 100;
 }
 
+.grid-wrapper{
+  padding: 30px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 0;
+}
+
 .kyousan p{
-  padding: 10rem 5rem;
   text-align: center;
+  font-weight: 500;
+  font-size: 15px;
 }
 
 .waku {
